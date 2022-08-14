@@ -1,0 +1,8 @@
+@import './base/_variables';
+
+h1 {
+    color: $main-color;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+}
