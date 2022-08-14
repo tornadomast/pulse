@@ -5,6 +5,7 @@
 @import './block/button';
 @import './block/benefits';
 
+
 * {
     font-family: 'Museo Sans Curl', sans-serif;
     box-sizing: border-box;
@@ -15,3 +16,5 @@
    max-width: 950px;
    margin: 0 auto;
 }
+
+@import './block/media';

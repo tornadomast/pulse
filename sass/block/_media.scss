@@ -1,0 +1,88 @@
+
+    
+@media (max-width: 991px) {
+    .promo {
+        &__header {
+            font-size: 37px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .button_main {
+        width: 250px;
+        height: 45px;
+    }     
+}
+
+@media (max-width: 767px) {
+    .promo {
+        &__wrapper {
+            margin-top: 50px;
+            align-items:center;
+        }
+    }
+    .benefits {
+        &__icons {
+            display: block;
+        }
+        &__icon{
+            h2 {
+            margin-top: 20px;
+        }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        background-position: bottom right;
+    }
+    .header {
+        display: block;
+        text-align: center;
+        &__official {
+            line-height: 35px;
+            font-size: 20px;
+        }
+        &__logo {
+            img {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        &__header {
+            font-size: 36px;
+            text-align: center;
+            line-height: 35px;
+        }
+        &__subheader {
+            line-height: 25px;
+            text-align: center;
+        }
+        &__icons {
+            display: contents;
+
+        }
+        &__icon {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .promo {
+        &__header {
+            font-size: 28px;
+            text-align: center;
+            line-height: 35px;
+        }
+    }
+}
