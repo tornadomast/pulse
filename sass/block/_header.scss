@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    &__logo {
+        width: 250px;
+        img {
+            width: 100%;
+        }
+    }
+    &__official {
+        text-align: center;
+        display: block;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        color: #FFFFFF;
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__phone {
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    
+}
