@@ -24,7 +24,14 @@
             margin-top: 50px;
             align-items:center;
         }
+        &__header {
+            font-size: 33px;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
     }
+    
     .benefits {
         &__icons {
             display: block;
@@ -40,6 +47,9 @@
 @media (max-width: 575px) {
     .promo {
         background-position: bottom right;
+        &__header {
+            font-size: 28px;
+        }
     }
     .header {
         display: block;
@@ -56,10 +66,10 @@
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 425px) {
     .promo {
         &__header {
-            font-size: 36px;
+            font-size: 30px;
             text-align: center;
             line-height: 35px;
         }
