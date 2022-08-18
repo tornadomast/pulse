@@ -34,11 +34,22 @@
     .slick-dots {
         margin-top: 50px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         list-style-type: none;
         -webkit-text-security: square;
+        button {
+            background-color: none;
+            border-radius: 100%;
+            margin-left: 20px;
+        }
+    }
+    .slick-active {
+        button {
+            background: red;
+        }
     }
     
+
     
 }
 
@@ -48,8 +59,9 @@
             position: relative;
             min-height: 530px;
             img{
-            width: 75%;
+            width: 80%;
             }
         }
     }
 }
+
