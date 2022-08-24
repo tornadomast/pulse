@@ -35,7 +35,9 @@
         text-decoration: none;
         img {
         &:hover {
-            box-shadow: 2px 2px 5px #FFFFFF;
+            transition: 1s all;
+            border-radius: 100%;
+            box-shadow:  10px 10px 10px #660303 ;
         }
     }
     }
@@ -52,7 +54,7 @@
             width: 360px;
             height: 250px;
             padding-top: 20px;
-            opacity: 0.9;
+            background-color: rgb(199, 1, 1, .9);
         }
     }
 }

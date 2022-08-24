@@ -28,7 +28,7 @@
                 </div>
                 <div class="header__contacts">
                     <a class="header__phone" href="tel:+380930322482">+38(093)0322482</a>
-                    <button class="button">замовити дзвінок</button>
+                    <button data-modal="consultation" class="button">замовити дзвінок</button>
                 </div>
             </header>
 
@@ -49,7 +49,7 @@
                             відповімо на всі запитання
                     </div>
                 </div>
-                <button class="button button_main">замовити консультацію</button>
+                <button data-modal="consultation" class="button button_main">замовити консультацію</button>
                 <div class="promo__link"> або <a  href="#">перейти в каталог</a></div>
                 
             </div>
@@ -96,7 +96,7 @@
                 <input name="name" placeholder="Ваше ім'я" type="text">
                 <input name="phone" placeholder="Ваш телефон" type="number">
                 <input name="email" placeholder="Ваш email"type="email">
-                <button class="button button__form">Замовити консультацію</button>
+                <button id="btn" class="button button__form">Замовити консультацію</button>
             </form>
         </div>
     </section>
@@ -148,7 +148,7 @@
                             <div class="catalog-item__oldprice">8000 грн</div>
                             <div class="catalog-item__price">7720 грн</div>
                         </div>
-                        <button class="catalog-item__btn"><div>Придбати</div></button>
+                        <button  class="catalog-item__btn"><div>Придбати</div></button>
                     </div>
                 </div>
                 <div class="catalog-item">
@@ -200,7 +200,7 @@
                             <div class="catalog-item__oldprice">12500 грн</div>
                             <div class="catalog-item__price">11520 грн</div>
                         </div>
-                        <button class="catalog-item__btn"><div>Придбати</div></button>
+                        <button id="venuSq" class="catalog-item__btn"><div>Придбати</div></button>
                     </div>
                 </div>
                 <div class="catalog-item">
@@ -512,8 +512,38 @@
             </a>
         </div>
     </div>
-    <h2 class="creator">© 2022 Oleksii Khrushch</h2>
+    <h2 class="creator">&copy; 2022 Oleksii Khrushch &#9749;</h2>
     </footer>
+
+    <div class="overflow">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&#10008;</div>
+            <div class="modal__header">Заповніть форму заявки</div>
+            <div class="modal__descr">і ми зателефонуємо Вам через 10 хв</div>
+            <form class="consultation__enters" action="">
+                <input name="name" placeholder="Ваше ім'я" type="text">
+                <input name="phone" placeholder="Ваш телефон" type="number">
+                <input name="email" placeholder="Ваш email"type="email">
+                <button  class="button button__form">Замовити консультацію</button>
+            </form>
+        </div>
+        <div class="modal" id="order">
+            <div class="modal__close">&#10008;</div>
+            <div class="modal__header">Ваше замовлення</div>
+            <div class="modal__descr">пульсометр Vivosmart 5</div>
+            <form class="consultation__enters" action="">
+                <input name="name" placeholder="Ваше ім'я" type="text">
+                <input name="phone" placeholder="Ваш телефон" type="number">
+                <input name="email" placeholder="Ваш email"type="email">
+                <button class="button button__form">Придбати</button>
+            </form>
+        </div>
+        <div class="modal modal_answer" id="answer">
+            <div class="modal__close">&#10008;</div>
+            <div class="modal__header">Дякуємо за ваше замовлення</div>
+            <div class="modal__descr modal_answer-smile">Наш менеджер зв'яжеться з вами в найближчий час <div>&#9787;</div></div>
+        </div>
+    </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="./js/slick.min.js"></script>
