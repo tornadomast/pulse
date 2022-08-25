@@ -77,6 +77,8 @@ $(document).ready(function(){
   validForms('#consultation form');
   validForms('#consult');
   validForms('#order form');
+
+  $("input[name=phone]").mask("+38(999) 999-99-99");
 });
 
       
