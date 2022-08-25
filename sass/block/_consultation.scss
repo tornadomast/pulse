@@ -35,6 +35,15 @@
                 margin-bottom: 17px;
             }
         }
+        label.error {
+            border: none;
+        }
+        .error {
+            text-align: center;
+            margin-bottom: 10px;
+            border:1px solid red;
+            color: white;
+        }
     }
 }
 
@@ -61,6 +70,9 @@
         &__title {
             font-size: 22px;
              line-height: 40px
+        }
+        &__enters {
+            width: 100%;
         }
     }
 }

@@ -47,9 +47,37 @@ $(document).ready(function(){
       $('.overflow, #order').fadeIn('slow');
     });
   });
-
   
+    
+  function validForms(form){
+    $(form).validate({
+      rules: {
+        name: {
+          required: true,
+        },
+        phone: {
+          required: true
+        },
+        email: {
+          required: true,
+          email: true
+        }
+      },
+        messages: {
+          name: "Будь ласка введіть своє ім'я",
+          phone: "Будь ласка введіть свій номер",
+          email: {
+          required: "Нам потрібна ваша пошта, щоб зв'язатись з вами",
+          email: "Введіть правильну поштову адресу"
+          }
+        }
+      
   });
+  };
+  validForms('#consultation form');
+  validForms('#consult');
+  validForms('#order form');
+});
 
       
  

@@ -205,9 +205,13 @@
         &__tab {
             font-size: 11px;
             line-height: none;
+            transform: none;
+            div {
+                transform: none;
+            }
         }
         &-item {
-            margin: 10px auto;
+            margin: 0px auto;
         }
     }
 }
