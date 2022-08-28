@@ -68,3 +68,18 @@
     }
 }
 
+@media (max-width: 374px) {
+    .carousel {
+        &__slick {
+            position: relative;
+            min-height: 530px;
+            img{
+            width: 80%;
+            }
+        }
+        .slick-dots {
+            justify-content: flex-end;
+        }
+    }
+}
+

@@ -215,3 +215,11 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+    .catalog {
+        &__tab {
+            font-size: 9px;
+        }
+    }
+}
