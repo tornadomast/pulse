@@ -213,6 +213,7 @@
         &-item {
             margin: 0px auto;
         }
+    
     }
 }
 
@@ -221,5 +222,13 @@
         &__tab {
             font-size: 9px;
         }
+        &-item {
+            &__list {
+                li {
+                    font-size: 12px;
+                }
+            }
+        }
     }
+
 }
