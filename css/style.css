@@ -508,6 +508,7 @@
   display: flex;
 }
 .catalog-item {
+  position: relative;
   overflow: hidden;
   width: 300px;
   min-height: 400px;
@@ -590,8 +591,6 @@
   background: #C70101;
   border-radius: 6px;
   cursor: pointer;
-}
-.catalog-item__btn div {
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
