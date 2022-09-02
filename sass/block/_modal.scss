@@ -44,14 +44,17 @@
         }
     }
     &_answer{
-        min-height: 143px;
-        &-smile{
-            div {
-                margin-top: 10px;
-                font-size: 40px;
-                color: yellow;
-            }
+        min-height: 143px; 
+    }
+    &__heart {
+        padding-top: 20px;
+        img {
+            display: block;
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
         }
+       
     }
     label.error {
         border: none;
